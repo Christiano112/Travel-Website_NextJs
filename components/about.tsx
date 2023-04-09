@@ -50,7 +50,7 @@ const About = () => {
                 </div>
             </article>
 
-            <div className="flex flex-wrap justify-evenly gap-4 items-center mt-[5rem] md:mt-[7rem] mx-auto w-[96%] md:w-[90%] px-4">
+            <div className="flex flex-wrap justify-evenly gap-4 items-center mt-[3rem] md:mt-[7rem] mx-auto w-[96%] md:w-[90%] px-4">
                 <Image src="/images/axon.png" alt="axon" height="100" width="100" />
                 <Image
                     src="/images/jet-star.png"
