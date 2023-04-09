@@ -8,7 +8,6 @@ const About = () => {
                 <section className="md:basis-1/2">
                     <p className="p-alt">Testimonials</p>
                     <h2 className="h2-alt">What people say about Us.</h2>
-                    <div>pagination</div>
                 </section>
 
                 <div className="relative md:basis-1/2">
