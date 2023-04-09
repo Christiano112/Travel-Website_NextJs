@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='mt-[7rem] pb-[2rem] mx-auto w-[92%] flex justify-center sm:items-center gap-4 sm:gap-8 flex-wrap flex-col sm:flex-row'>
             <div>
                 <Image src='/images/Jadoo.png' alt='Logo' height='100' width='100' />
-                <p>Book your trip in minute, get full Control for much longer.</p>
+                <p className='text-primary-300 text-[.8rem] font-semibold mt-4'>Book your trip in minute, get full Control for much longer.</p>
             </div>
             <div>
                 <h2>Company</h2>
@@ -32,16 +32,16 @@ const Footer = () => {
                     <li>Low fare tips</li>
                 </ul>
             </div>
-            <div>
-                <div>
-                    <Image src='/images/facebook-icon.png' alt='facebook' height='100' width='100' />
-                    <Image src='/images/ig-icon.png' alt='instagram' height='100' width='100' />
-                    <Image src='/images/twitter-icon.png' alt='twitter' height='100' width='100' />
+            <div className='flex flex-col items-center justify-center gap-2'>
+                <div className='flex items-center justify-center gap-4'>
+                    <Image src='/images/facebook-icon.png' alt='facebook' height='50' width='50' />
+                    <Image src='/images/ig-icon.png' alt='instagram' height='60' width='60' />
+                    <Image src='/images/twitter-icon.png' alt='twitter' height='50' width='50' />
                 </div>
-                <h2>Discover our app</h2>
-                <div>
-                    <Image src='/images/google-play.png' alt='play store' height='100' width='100' />
-                    <Image src='/images/applestore.png' alt='apple store' height='100' width='100' />
+                <h2 className='text-primary-300 font-medium'>Discover our app</h2>
+                <div className='flex items-center justify-center gap-4'>
+                    <Image src='/images/google-play.png' alt='play store' height='80' width='80' />
+                    <Image src='/images/applestore.png' alt='apple store' height='80' width='80' />
                 </div>
             </div>
         </footer>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Main = () => {
     return (
         <React.Fragment>
-            <nav className='pt-6 pb-[3rem] md:pb-[5rem] flex justify-between mx-auto w-[96%] md:w-[90%]'>
+            <nav className='pt-6 pb-[3rem] md:pb-[5rem] flex justify-between mx-auto w-[94%] md:w-[90%]'>
                 <Image src='/images/Logo.png' alt='logo' width='90' height='90' className='h-auto w-auto' />
                 <ul className='hidden md:flex justify-center gap-4 lg:gap-12 items-center ml-[10%]'>
                     <li>Destinations</li>
@@ -21,7 +21,7 @@ const Main = () => {
 
             <main className='flex flex-col md:flex-row gap-6 mx-auto w-[94%] md:w-[90%]'>
                 <section className='flex flex-col gap-4'>
-                    <p className='text-secondary-100 font-bold uppercase'>Best Destinations around the world</p>
+                    <p className='text-secondary-100 font-bold uppercase pr-1'>Best Destinations around the world</p>
                     <h1 className='text-primary-200 font-bold text-[3rem] md:text-[5rem] leading-none lg:w-[80%]'>Travel, enjoy and live a new and full life</h1>
                     <p className='text-primary-300 font-normal lg:w-[80%]'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
                     <div className='flex sm:gap-6 items-center flex-wrap'>

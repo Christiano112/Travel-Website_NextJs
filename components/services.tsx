@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 
 
@@ -27,7 +26,7 @@ const serviceContent = [
 
 const Services = () => {
     return (
-        <section className='pt-[5rem] relative mx-auto w-[96%] md:w-[90%]'>
+        <section className='pt-[5rem] relative mx-auto w-[80%] sm:w-[96%] md:w-[90%]'>
             <p className='p'>CATEGORY</p>
             <h2 className='h2'>We Offer Best Services</h2>
             <Image src='/images/crosses.png' alt='crosses' width='100' height='100' className='hidden sm:block absolute top-20 right-10' />

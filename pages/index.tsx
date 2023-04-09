@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/images/Jadoo.png" />
       </Head>
 
-      <div className='box-border bg-scroll bg-no-repeat bg-right-top bg-[length:50rem_40rem]'
+      <div className='box-border bg-scroll bg-no-repeat bg-right-top bg-[length:50rem_40rem] scroll-smooth'
             style={{
                 backgroundImage: 'url(/images/mainBG.png)'
             }}>

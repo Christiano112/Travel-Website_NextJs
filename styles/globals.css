@@ -6,6 +6,14 @@
     li {
         @apply text-primary-100 cursor-pointer font-medium;
     }
+
+    footer h2 {
+        @apply text-[#080809] font-bold text-[1.1rem] mb-2 sm:mb-4;
+    }
+
+    footer ul li {
+        @apply text-primary-300 font-medium;
+    }
 }
 
 .p {
@@ -14,4 +22,12 @@
 
 .h2 {
     @apply text-center font-bold text-primary-400 text-2xl md:text-5xl;
+}
+
+.p-alt {
+    @apply text-primary-300 font-medium mb-2;
+}
+
+.h2-alt {
+    @apply font-bold text-primary-400 text-2xl md:text-5xl;
 }
